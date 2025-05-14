@@ -23,7 +23,7 @@ const Dialogs = (props) => {
         let text = newSendMessage.current.value;
         props.messagePostChangeActionCreator(text);
     }
-    //TEST_
+
 
     return (
         <div className={s.dialogs}>
