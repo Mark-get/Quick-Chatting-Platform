@@ -12,6 +12,10 @@ function Navigation() {
                 <NavLink to="/dialogs"
                          className={({isActive}) => isActive ? `${s.item} ${s.active}` : `${s.item}`}>Dialogs</NavLink>
             </div>
+            <div className={`${s.item} ${s.active}`}>
+                <NavLink to="/users"
+                         className={({isActive}) => isActive ? `${s.item} ${s.active}` : `${s.item}`}>Users</NavLink>
+            </div>
             <div className={s.item}>
                 <NavLink to="/news"
                          className={({isActive}) => isActive ? `${s.item} ${s.active}` : `${s.item}`}>News</NavLink>

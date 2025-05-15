@@ -10,6 +10,7 @@ import {BrowserRouter, Route, Routes} from "react-router-dom";
 import {addMessage, addPost, addpPost, updateNewMessage} from "./redux/store";
 import DialogsContainer from "./components/Dialogs/DialogsContainer";
 import UsersContainer from "./components/Users/UsersContainer";
+import Users from "./components/Users/Users";
 
 const App = (props) => {
     return (
